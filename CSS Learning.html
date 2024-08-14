@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tutorial - Learning Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CSS Tutorial</h1>
+        <nav>
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="HTML Learning.html">HTML</a></li>
+                <li><a href="CSS Learning.html">CSS</a></li>
+                <li><a href="JS Learning.html">Java</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="introduction">
+            <h2>Introduction to CSS</h2>
+            <p>CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in HTML or XML.</p>
+        </section>
+
+        <section id="syntax">
+            <h2>CSS Syntax</h2>
+            <pre class="code-example">
+selector {
+    property: value;
+}
+            </pre>
+            <p>Example:</p>
+            <pre class="code-example">
+body {
+    background-color: lightblue;
+}
+            </pre>
+        </section>
+
+        <section id="selectors">
+            <h2>CSS Selectors</h2>
+            <p>Selectors are used to target the HTML elements you want to style.</p>
+            <ul>
+                <li><strong>Element Selector:</strong> Targets elements by their tag name.</li>
+                <pre class="code-example">p { color: red; }</pre>
+                <li><strong>Class Selector:</strong> Targets elements by their class name.</li>
+                <pre class="code-example">.classname { color: blue; }</pre>
+                <li><strong>ID Selector:</strong> Targets elements by their ID.</li>
+                <pre class="code-example">#idname { color: green; }</pre>
+            </ul>
+        </section>
+
+        <section id="box-model">
+            <h2>CSS Box Model</h2>
+            <p>The CSS box model describes the rectangular boxes that are generated for elements in the document tree and laid out according to the visual formatting model.</p>
+            <img src="box-model.png" alt="CSS Box Model">
+            <ul>
+                <li><strong>Content:</strong> The content of the box, where text and images appear.</li>
+                <li><strong>Padding:</strong> Clears an area around the content. The padding is transparent.</li>
+                <li><strong>Border:</strong> A border that goes around the padding and content.</li>
+                <li><strong>Margin:</strong> Clears an area outside the border. The margin is transparent.</li>
+            </ul>
+        </section>
+
+        <section id="examples">
+            <h2>CSS Examples</h2>
+            <p>Below are some examples of how CSS can be used:</p>
+            <h3>Text Color</h3>
+            <pre class="code-example">
+h1 {
+    color: blue;
+}
+            </pre>
+            <h3>Background Color</h3>
+            <pre class="code-example">
+body {
+    background-color: lightgray;
+}
+            </pre>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Learning Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

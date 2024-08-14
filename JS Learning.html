@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Tutorial - Learning Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Java Tutorial</h1>
+        <nav>
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="HTML Learning.html">HTML</a></li>
+                <li><a href="CSS Learning.html">CSS</a></li>
+                <li><a href="JS Learning.html">Java</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="introduction">
+            <h2>Introduction to Java</h2>
+            <p>Java is a popular programming language, known for its portability, robustness, and versatility. It is used for developing mobile apps, web applications, and large-scale enterprise systems.</p>
+        </section>
+
+        <section id="syntax">
+            <h2>Java Syntax</h2>
+            <p>Java syntax is similar to C++ and follows a structured approach to programming.</p>
+            <pre class="code-example">
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+            </pre>
+        </section>
+
+        <section id="data-types">
+            <h2>Java Data Types</h2>
+            <p>Java has several built-in data types:</p>
+            <ul>
+                <li><strong>int:</strong> Integer type, e.g., <code>int myNumber = 5;</code></li>
+                <li><strong>float:</strong> Floating-point number, e.g., <code>float myFloat = 5.99f;</code></li>
+                <li><strong>char:</strong> Character type, e.g., <code>char myLetter = 'D';</code></li>
+                <li><strong>boolean:</strong> Boolean type, e.g., <code>boolean isJavaFun = true;</code></li>
+                <li><strong>String:</strong> String type, e.g., <code>String greeting = "Hello";</code></li>
+            </ul>
+        </section>
+
+        <section id="control-structures">
+            <h2>Java Control Structures</h2>
+            <p>Control structures in Java include loops and conditionals:</p>
+            <h3>Conditional Statements</h3>
+            <pre class="code-example">
+if (condition) {
+    // code to be executed if condition is true
+} else {
+    // code to be executed if condition is false
+}
+            </pre>
+
+            <h3>Loops</h3>
+            <h4>For Loop</h4>
+            <pre class="code-example">
+for (int i = 0; i < 5; i++) {
+    System.out.println(i);
+}
+            </pre>
+            <h4>While Loop</h4>
+            <pre class="code-example">
+int i = 0;
+while (i < 5) {
+    System.out.println(i);
+    i++;
+}
+            </pre>
+        </section>
+
+        <section id="oop-concepts">
+            <h2>Java Object-Oriented Programming (OOP) Concepts</h2>
+            <p>Java is an object-oriented programming language, which means it supports concepts like classes, objects, inheritance, polymorphism, encapsulation, and abstraction.</p>
+            <h3>Classes and Objects</h3>
+            <p>A class is a blueprint for objects, and objects are instances of a class.</p>
+            <pre class="code-example">
+class Dog {
+    String name;
+    int age;
+
+    void bark() {
+        System.out.println("Woof!");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog myDog = new Dog();
+        myDog.name = "Buddy";
+        myDog.age = 3;
+        myDog.bark();
+    }
+}
+            </pre>
+
+            <h3>Inheritance</h3>
+            <p>Inheritance allows one class to inherit fields and methods from another class.</p>
+            <pre class="code-example">
+class Animal {
+    void eat() {
+        System.out.println("This animal eats food.");
+    }
+}
+
+class Dog extends Animal {
+    void bark() {
+        System.out.println("Woof!");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog myDog = new Dog();
+        myDog.eat();
+        myDog.bark();
+    }
+}
+            </pre>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Learning Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
